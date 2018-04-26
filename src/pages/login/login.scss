@@ -1,0 +1,34 @@
+page-login {
+
+    .bg-image{
+      background-image:  url('/assets/imgs/login_bg.jpg') ;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover
+     }
+
+     .no-scroll{
+         overflow: hidden;
+     }
+
+     .logo{
+         display: block;
+         width: 100%;
+         height: 300px;
+     }
+
+    .label{
+        background-color: #D9EBF8;
+        margin-bottom: 0.1em;
+    }
+
+    .icon{
+        padding-left: 6px;
+        padding-bottom: 4px;
+    }
+
+    .btn_login{
+        width:97%;
+    }
+   
+}
