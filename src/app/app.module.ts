@@ -10,9 +10,6 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { DoctorPage } from '../pages/doctor/doctor';
-import { DoctortimmingPage } from '../pages/doctortimming/doctortimming';
-import { AppointmentPage } from '../pages/appointment/appointment';
 
 @NgModule({
   declarations: [
