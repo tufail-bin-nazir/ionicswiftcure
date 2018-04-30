@@ -21,5 +21,8 @@ export class DoctortimmingPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad DoctortimmingPage');
   }
+  appointment(){
+    this.navCtrl.push('AppointmentPage');
+  }
 
 }

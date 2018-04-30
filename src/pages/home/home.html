@@ -1,7 +1,11 @@
 <ion-header>
-  <ion-navbar color="primary">
-    <ion-title>Search Doctors</ion-title>
+  <ion-navbar>
+    <ion-title>
+      Search Doctors
+      <ion-icon style="float: right;" ios="ios-exit" md="md-exit"></ion-icon>
+    </ion-title>
   </ion-navbar>
+
 </ion-header>
 
 <ion-content>
@@ -12,7 +16,7 @@
     (ionCancel)="onCancel($event)">
   </ion-searchbar>
 
-  <ion-card (click)="someFunction()"  >
+  <ion-card (click)="doc()"  >
 
       <ion-item color="primary">
         <ion-avatar item-start>
@@ -42,7 +46,7 @@
     
     </ion-card>
 
-    <ion-card >
+    <ion-card (click)="doc()" >
 
         <ion-item color="primary">
           <ion-avatar item-start>

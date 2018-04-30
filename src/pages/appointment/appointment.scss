@@ -1,0 +1,30 @@
+page-appointment {
+
+    .bg-image{
+        background-image:  linear-gradient(to left, rgba(9, 51, 238, 0.397), rgba(0, 255, 242, 0.952)),  url('/assets/imgs/appointment-bg.jpg') ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover
+       }
+  
+       .no-scroll{
+           overflow: hidden;
+       }
+  
+  
+      .label{
+          background-color: #D9EBF8;
+          margin-bottom: 0.3em;
+      }
+  
+      .icon{
+          padding-left: 6px;
+          padding-bottom: 4px;
+      }
+  
+      .list{
+          margin-top: 30%;
+      }
+  
+
+}
