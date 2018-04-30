@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+import { IonicPage, NavController, NavParams, ModalController } from 'ionic-angular';
 /**
  * Generated class for the DoctorPage page.
  *
@@ -15,11 +14,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 })
 export class DoctorPage {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController, public navParams: NavParams,public modalCtrl: ModalController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad DoctorPage');
+  }
+
+  presentProfileModal() {
+    let profileModal = this.modalCtrl.create('DoctortimmingPage');
+    profileModal.present();
   }
 
 }
