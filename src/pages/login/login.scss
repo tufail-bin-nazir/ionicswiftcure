@@ -11,10 +11,12 @@ page-login {
          overflow: hidden;
      }
 
-     .logo{
+     .logo {
          display: block;
-         width: 100%;
-         height: 300px;
+         width: 35%;
+         height: 19%;
+         margin-left:auto;
+         margin-right:auto;
      }
 
     .label{
@@ -30,5 +32,20 @@ page-login {
     .btn_login{
         width:97%;
     }
+
    
+}
+
+.toastStyle .toast-wrapper {
+    background-color: #488aff;
+    color:#f4f4f4; 
+}
+
+.toolbar-title-md{
+  color:#488aff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.toolbar-background .toolbar-background-md {
+  background-color: transparent;   
 }
